@@ -96,5 +96,6 @@ exports.handler = function(event, context) {
             }
         }
     );
-};
 context.succeed('The Lambda function has been Successfully executed');
+};
+
